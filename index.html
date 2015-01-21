@@ -1,62 +1,192 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Gymnasiearbete</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-	  <link href="bootstrap.css" rel="stylesheet">
-
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media 
+  <head>
+    <title>
+      Gymnasiearbete
+    </title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/cerulean/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media 
          queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page 
+    <!-- WARNING: Respond.js doesn't work if you view the page 
          via file:// -->
-      <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/
             html5shiv.js"></script>
          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/
             respond.min.js"></script>
       <![endif]-->
-   </head>
-   <body>
-   <div class = "navbar navbar-inverse navbar-static-top">
-	<div class = "container">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
 
-	<a href = "#" class = "navbar-brand">Random titel</a>
-	
-	<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-	<span class = "icon-bar"></span>
-	<span class = "icon-bar"></span>
-	<span class = "icon-bar"></span>
-	</button>
-	
-	<div class = "collapse navbar-collapse navHeaderCollapse">
-	
-	<ul class = "nav navbar-nav navbar-right">
-	
-	<li class = "active"><a href ="#">Home1</a></li>
-	<li><a href = "#">Home2</a></li>
-	<li class ="dropdown"></li>
-	<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Home <b class="caret"></b></a>
-	<ul class = "dropdown-menu">
-	
-	<li><a href = "#">Home5</a></li>
-	<li><a href = "#">Home6</a></li>
-	<li><a href = "#">Home7</a></li>
-	<li><a href = "#">Home8</a></li>
-	
-		</ul>
-	</ul>
-	
-	</div>
-	</div>
-	</div>
- 
-	  
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://code.jquery.com/jquery.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files 
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class=
+          "icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Link <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li>
+              <a href="#">Link</a>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+
+                <li class="divider">
+                </li>
+
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
+
+                <li class="divider">
+                </li>
+
+                <li>
+                  <a href="#">One more separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input class="form-control" placeholder="Search" type="text">
+            </div>
+            <button class="btn btn-default" type="submit">Submit</button>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">Link</a>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+
+                <li class="divider">
+                </li>
+
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="bs-example">
+      <div class="carousel slide" data-interval="" data-ride="carousel" id="myCarousel">
+        <!-- Carousel indicators -->
+
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel">
+          </li>
+
+          <li data-slide-to="1" data-target="#myCarousel">
+          </li>
+
+          <li data-slide-to="2" data-target="#myCarousel">
+          </li>
+        </ol>
+        <!-- Carousel items -->
+
+        <div class="carousel-inner">
+          <div class="active item">
+            <h2>
+              Animal Wildlife 1
+            </h2>
+
+            <div class="carousel-caption">
+              <h3>
+                Learn More!
+              </h3>
+
+              <p>
+                Animal Wildlife is at danger! ACT TODAY!
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <h2>
+              Animal Wildlife 2
+            </h2>
+
+            <div class="carousel-caption1">
+              <h3>
+                Learn More!
+              </h3>
+
+              <p>
+                Animal Wildlife is at danger! ACT TODAY!
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <h2>
+              Animal Wildlife 3
+            </h2>
+
+            <div class="carousel-caption2">
+              <h3>
+                Learn More!
+              </h3>
+
+              <p>
+                Animal Wildlife is at danger! ACT TODAY!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" data-slide="prev" href="#myCarousel"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="carousel-control right" data-slide="next" href=
+        "#myCarousel"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script> <!-- Include all compiled plugins (below), or include individual files 
             as needed -->
-      <script src="js/bootstrap.min.js"></script>
-   </body>
+     <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
