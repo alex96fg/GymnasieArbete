@@ -1,6 +1,9 @@
-GymnasieArbete klass: te3c.
+Gymnasiearbete
 ==============
+Klass: TE3C.
+Skola: Erik Dahlbergsgymnasiet.
+Region: Jönköping.
+Gruppmedlemmar: Daniel Rosenqvist, Benjamin Åsbrink, Alexander Fogelberg.
 
-Alexander, Benjamin och Daniel's Gymnasiearbete.
 
-Detta är ett gymnasie arbete.
+
