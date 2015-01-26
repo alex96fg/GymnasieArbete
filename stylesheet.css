@@ -16,3 +16,36 @@ h2{
 .bs-example{
 	margin: 0px;
 }
+.firstheader {
+ text-align:center;   
+}
+.firstheadertext {
+ text-align:center;   
+}
+.secondheader {
+ text-align:center; 
+ color: white;
+}
+.secondheadertext {
+ text-align:center; 
+ color: white;
+}
+.page-header2 {
+height: 300px;
+ background-color: #2C3E50;
+}
+.row {
+margin-top: 50px;
+margin-left: 5px;
+float:left;
+}
+.row2 {
+margin-top: 50px;
+margin-left: 5px;    
+float: left;
+}
+.row3 {
+margin-top: 50px;
+margin-left: 5px;    
+float: left;
+}
