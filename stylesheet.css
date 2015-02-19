@@ -23,6 +23,7 @@ h2{
  text-align:center;   
 }
 .secondheader {
+ padding-top: 50px;
  text-align:center; 
  color: white;
 }
@@ -31,7 +32,7 @@ h2{
  color: white;
 }
 .page-header2 {
-height: 300px;
+height: 200px;
  background-color: #2C3E50;
 }
 .row {
@@ -49,3 +50,4 @@ margin-top: 50px;
 margin-left: 5px;    
 float: left;
 }
+
