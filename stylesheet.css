@@ -35,19 +35,11 @@ h2{
 height: 200px;
  background-color: #2C3E50;
 }
-.row {
-margin-top: 50px;
-margin-left: 5px;
-float:left;
+.container {
+display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
-.row2 {
-margin-top: 50px;
-margin-left: 5px;    
-float: left;
-}
-.row3 {
-margin-top: 50px;
-margin-left: 5px;    
-float: left;
-}
-
