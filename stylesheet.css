@@ -1,6 +1,12 @@
+body {
+ margin: 0;   
+    background-color: white;
+}
+
 .carousel-caption {
 padding: 250px;
 }
+
 h2{
     margin: 0;     
     color: #666;
@@ -8,41 +14,221 @@ h2{
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
+
 .item{
     background:  url("1920x1080.jpg") no-repeat;  
     text-align: center;
     height:555px !important;
 }
+
+.navbar {
+    
+}
+
 .carousel{
     margin-top: -22px;
 }
+
 .bs-example{
 	margin: 0px;
 }
+
 .firstheader {
- text-align:center;   
+ text-align:center; 
 }
+
 .firstheadertext {
- text-align:center;   
+ text-align:center; 
+    width:60%;
+    margin: 0px auto;
 }
+
+.page-header {
+    background-color: #F0F0F0;
+    margin-top: 20px;
+    padding: 10px;
+    height: 200px;
+    margin: 0px auto;
+}
+
 .secondheader {
- padding-top: 50px;
- text-align:center; 
- color: white;
+    margin-right:5px;
+ padding-top: 0px;
+ text-align: center; 
+ color: black;
 }
+
 .secondheadertext {
- text-align:center; 
- color: white;
+    margin: auto;
+ color: black;
+     margin: 5px 10px 0px 0px;
+    border-bottom: 1px solid lightgray;
 }
-.page-header2 {
-height: 200px;
- background-color: #2C3E50;
+
+.page-header2 { 
+    margin-top: 50px;
+    margin-left: 380px;
+    width:60%;
+    height:495px;
 }
+
+.leftsidelink {
+    width:40%;
+    float: left;
+       height: 500px;
+    background-color:#F5F5F5;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.leftsidelink p {
+ border:none;   
+     margin-left: 10px;
+    margin-top: 10px;
+    width: 94%;
+}
+
+#gorilla {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#val {
+    float:right;
+    margin: 1px 12px 0px 0px;
+    border-radius: 5px;
+}
+
+.rightsidelink {
+    width: 59%;
+    float: right;
+}
+
+.rightsidelink p {
+    margin-left: 5px;
+    height: 125px;
+}
+
+.rightsidelink h1 {
+   border-bottom: 2px solid lightgray;
+}
+
+.rightsidediv {
+    margin-bottom: 9px;
+    height:135px;
+}
+
 .container {
-display:inline-block;
+    width:63%;
+    display:inline-block;
     float:none;
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-left: 351px;
+    margin-top: 25px;
+}
+
+.col-md-4 h3 {
+    text-align: center;
+    margin-top: -21px;
+}
+
+.row {
+    margin: 0px auto;
+}
+
+.page-header3 {
+    background-color: #F0F0F0;
+    margin-top: 20px;
+    padding: 10px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.row2 {
+    width: 1050px;
+    margin: 0px auto;
+}
+
+.footdiv {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+#val2 {
+    width:250px;
+    height: 196px;
+    float:left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.footdiv h3 {
+    text-align: center;
+    width: 246px;
+    margin-top: 5px;
+    float:right;
+}
+
+.footdiv p {
+    text-align: left;
+    width: 236px;
+    float:left;
+    margin-left: 5px;
+}
+
+#fdivknapp {
+    float: left;
+    margin-top: -11px;
+    margin-left: 5px;
+}
+
+
+.footdiv2 {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    float:right;
+    margin-top: -200px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+
+
+#val3 {
+    width:250px;
+    height: 196px;
+    float:right;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footdiv2 h3 {
+    text-align: center;
+    width: 246px;
+    margin-top: 5px;
+}
+
+.footdiv2 p {
+    text-align: left;
+    width: 246px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#fdiv2knapp {
+    float: right;
+    margin-top: -11px;
+    margin-right: 5px;
 }
