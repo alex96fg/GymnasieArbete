@@ -147,6 +147,7 @@ span {
 }
 
 .row {
+    width:98%;
     margin: 0px auto;
 }
 
@@ -159,8 +160,9 @@ span {
 }
 
 .row2 {
-    width: 1050px;
+    width: 55%;
     margin: 0px auto;
+    margin-top: 40px;
 }
 
 .footdiv {
@@ -193,7 +195,7 @@ span {
     text-align: left;
     width: 48%;
     float:left;
-    margin-left: 5px;
+    margin-left: 6px;
 }
 
 #fdivknapp {
@@ -233,7 +235,7 @@ span {
     text-align: left;
     width: 50%;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 6px;
 }
 
 #fdiv2knapp {
