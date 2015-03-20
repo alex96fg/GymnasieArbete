@@ -66,8 +66,8 @@ h2{
 }
 
 .page-header2 { 
-    margin-top: 50px;
-    margin-left: 380px;
+    margin: 0 auto;
+    margin-top: 30px;
     width:60%;
     height:495px;
 }
@@ -89,8 +89,8 @@ h2{
 }
 
 #gorilla {
-
-    margin-left: 10px;
+    width:96%;    
+    margin-left: 9px;
     margin-top: 10px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -100,6 +100,7 @@ h2{
     float:right;
     margin: 1px 12px 0px 0px;
     border-radius: 5px;
+    width: 27%;
 }
 
 .rightsidelink {
@@ -123,13 +124,10 @@ h2{
 
 .container {
     width:63%;
-    display:inline-block;
-    float:none;
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-left: 351px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .col-md-4 h3 {
@@ -166,8 +164,8 @@ h2{
 }
 
 #val2 {
-    width:250px;
-    height: 196px;
+    width:50%;
+    height: 100%;
     float:left;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -175,14 +173,14 @@ h2{
 
 .footdiv h3 {
     text-align: center;
-    width: 246px;
+    width: 50%;
     margin-top: 5px;
     float:right;
 }
 
 .footdiv p {
     text-align: left;
-    width: 236px;
+    width: 48%;
     float:left;
     margin-left: 5px;
 }
@@ -207,8 +205,8 @@ h2{
 
 
 #val3 {
-    width:250px;
-    height: 196px;
+    width:50%;
+    height: 100%;
     float:right;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -216,13 +214,13 @@ h2{
 
 .footdiv2 h3 {
     text-align: center;
-    width: 246px;
+    width: 50%;
     margin-top: 5px;
 }
 
 .footdiv2 p {
     text-align: left;
-    width: 246px;
+    width: 50%;
     margin-top: 5px;
     margin-left: 5px;
 }
