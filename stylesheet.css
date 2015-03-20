@@ -131,8 +131,19 @@ h2{
 }
 
 .col-md-4 h3 {
-    text-align: center;
-    margin-top: -21px;
+    text-align: left;
+    margin-top: 5px;
+	font-size: 20px;
+	float:left;
+	width: 90%;
+}
+
+span {
+	float:right;
+}
+
+.col-md-4 p {
+    margin-top: 55px;
 }
 
 .row {
