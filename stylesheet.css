@@ -1,17 +1,7 @@
 body {
  margin: 0;   
 }
-a {
-  outline: none;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  text-decoration: none;
-  color: #fff !important;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-}
+
 .btn1.btn--white {
   height: 61px;
   line-height: 61px;
