@@ -350,10 +350,10 @@ color: white;
 background: transparent;
 }
 .nav {
-padding-left: 500px;
+padding-left: 63%;
 float:right;
 position:absolute;
-left: 950px;
+left: ;
 }
 .carousel-control.left, .carousel-control.right {
  background-image: none
