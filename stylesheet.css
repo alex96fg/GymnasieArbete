@@ -1,6 +1,12 @@
 body {
  margin: 0;   
 }
+.panel-body {
+Text-align: center;
+font-size: 1.61em;
+font-family: 'Open Sans', sans-serif;
+background: white;
+}
 .btn1.btn--white {
   height: 61px;
   font-size: 18px;
