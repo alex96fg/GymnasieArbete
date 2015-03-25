@@ -1,0 +1,197 @@
+body{
+
+}
+main{	
+	margin: 0px auto;
+}
+
+#nav1{
+	width:100%;
+	height:35px;
+	background-color:#F2F2F2;
+	border-radius:5px;
+	margin-bottom:15px;	
+}
+footer{
+	border:1px;
+	padding:20px 0px 20px 0px;
+	background-color: #f0f0f0;
+    border-color: #e7e7e7;
+	text-align:center;
+}
+#djurnav{
+	padding:1%;
+	float:left;
+	width:29%;
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 92%, rgba(242,242,242,1) 98%, rgba(130,130,130,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(92%,rgba(255,255,255,1)), color-stop(98%,rgba(242,242,242,1)), color-stop(100%,rgba(130,130,130,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 92%,rgba(242,242,242,1) 98%,rgba(130,130,130,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(255,255,255,1) 92%,rgba(242,242,242,1) 98%,rgba(130,130,130,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 92%,rgba(242,242,242,1) 98%,rgba(130,130,130,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(255,255,255,1) 92%,rgba(242,242,242,1) 98%,rgba(130,130,130,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#828282',GradientType=1 ); /* IE6-9 */
+	
+}
+ul, li, ul li #djurnav{
+	list-style-type:none;
+	padding-top:2%;
+
+}
+
+ul li a{
+	color:#0088ff;
+}
+
+ul li a:hover{
+	color:#F2F2F2;
+}
+
+#notisborder1{
+	border: 1px black solid;
+	border-color:#9C8118;
+	padding:1.5%;
+}
+#notis{
+	float:right;
+	width:15%;
+	padding:2%;
+	border:2px black solid;
+	background-color:#F2F2F2;
+	margin-right:5%;
+	margin-top:9%;
+	box-shadow: 5px 5px 5px black;
+}
+
+#faktabord{
+	width:40%;
+	margin:0 auto;
+	margin-bottom:5%;
+	margin-top:3%;
+}
+/* NAVBAR */
+
+.navbar-wrapper,
+.container h2
+{
+	text-align:center;
+	color:white;
+	text-shadow:2px 2px #0088ff;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  
+}
+.navbar {
+   background:rgba(0,0,0,0.5);   /* for latest browsers */
+   background: transparent;
+}
+.active {
+background: transparent;
+
+}
+.navbar-inverse {
+border:none;
+}
+.navbar-inverse .navbar-brand {
+color: white;
+font-size: 30px;
+float:left;
+margin: 0;
+position: absolute;
+left: 0px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: white;
+background: transparent;
+}
+.nav {
+padding-left: 63%;
+float:right;
+position:absolute;
+}
+.carousel-control.left, .carousel-control.right {
+ background-image: none
+}
+.navbar-inverse .navbar-nav> li > a {
+  color: white;
+}
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+  height: 100%;
+}
+
+
+.item{
+    text-align: center;
+    height:700px !important;
+}
+.carousel{
+    margin-top: -22px;
+}
+
+.carousel-caption {
+padding: 250px;
+}
+
+.btn1.btn--white {
+  height: 61px;
+  font-size: 18px;
+  line-height: 61px;
+  text-decoration:none;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.btn1.big {
+  width: 200px;
+}
+.btn1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  /* color: #fff; */
+  border: none;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a {
+color: white;
+}
+
+.item:nth-child(1) {
+background: linear-gradient(rgba(94,94,94,.5),rgba(94,94,94,.5)),url(picture.jpg) no-repeat center top;
+}
+.item:nth-child(2) {
+  background: linear-gradient(rgba(94,94,94,.5),rgba(94,94,94,.5)),url(picture2.jpg) no-repeat center top;
+}
+
+.item:nth-child(3) {
+  background: linear-gradient(rgba(94,94,94,.5),rgba(94,94,94,.5)),url(pictur3.jpg) no-repeat center top;
+}
+
+.container {
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+}
+/* NAVBAR */

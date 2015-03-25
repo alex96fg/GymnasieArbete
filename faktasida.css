@@ -1,0 +1,89 @@
+body{
+
+}
+main{	
+	margin: 0px auto;
+}
+p{
+font-size:1.2em;
+padding-top:40px;
+}
+.page-header0 p{
+	text-align:center;
+	width:20%;
+	margin-left:40%;
+}
+
+#nav1{
+	width:100%;
+	height:35px;
+	background-color:#F2F2F2;
+	border-radius:5px;
+	margin-bottom:15px;	
+}
+
+
+#djur{
+    margin: 0px auto;
+	width:60%;	
+	font-size:1em;
+	padding:2px;
+	padding-left:10px;
+}
+#fakta{
+    margin: 0px auto;
+	width:60%;	
+	font-size:1em;
+	padding:2px;
+	padding-left:10px;
+}
+
+.page-header0{
+	margin-top:-20px;
+	background-color:#F5F5F5;
+}
+.page-header1{
+	text-align:center;
+	height:350px;
+	background-color:white;
+}
+.page-header2{
+	text-align:center;
+	height:350px;
+	background-color:#F5F5F5;
+}
+.page-header3{
+	text-align:center;
+	height:350px;
+	background-color:white;
+}
+
+
+.page-header0 h1{
+	margin-left:46.5%;
+	padding-bottom:20px;
+}
+
+.img-thumbnail{
+	margin-top:40px;
+	margin-left:36.5%;
+}
+
+#levnad{
+    margin: 0px auto;
+	width:60%;
+	text-align:left;
+	font-size:1em;
+	padding:2px;
+	padding-left:10px;
+	text-align:center;
+	background-color:white;
+}
+
+footer{
+	border:1px;
+	padding:20px 0px 20px 0px;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+	text-align:center;
+}
